@@ -1,0 +1,41 @@
+library work;
+use work.all;
+
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity PreProcess is 
+port (Cin: std_logic;
+		I: std_logic_vector(7 downto 0);
+		O: stf_logic_vector(7 downto 0););
+end entity;
+
+architecture arch of PreProcess is 
+	
+	signal flow: std_logic;
+	
+	component AndMux
+		port(A,B: in std_logic; C: out std_logic);
+	end component;
+	
+	component OrMux
+		port(A,B: in std_logic; C: out std_logic);
+	end component;
+	
+	component XorMux
+		port(A,B: in std_logic; C: out std_logic);
+	end component;
+	
+	component NotMux
+		port(A: in std_logic; B: out std_logic);
+	end component;
+	
+	begin
+	
+	pre: for i in 0 to 7 generate
+		pre_XorInst: XorMux(A => Cin, B => b(i), C => O(i));
+	end generate;
+		
+	
+	
+end arch;

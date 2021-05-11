@@ -1,0 +1,546 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/simulation/modelsim
+Eandgate
+Z1 w1612732388
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 5
+R0
+Z4 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndGate.vhd
+Z5 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndGate.vhd
+l0
+L7 1
+VID6iFNdfZZjgZhjgEWX:M2
+!s100 ;EJo;5WeFa1Q8:5;Yko3V2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1615657598
+!i10b 1
+Z8 !s108 1615657598.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndGate.vhd|
+Z10 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndGate.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aarchi
+R2
+R3
+DEx4 work 7 andgate 0 22 ID6iFNdfZZjgZhjgEWX:M2
+!i122 5
+l12
+Z13 L11 5
+VO9RNLm?zaMEVF6Nl9FQ?X3
+!s100 jI4BT=I5bj^O_Y]dNd];23
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eandmux
+Z14 w1615621194
+R2
+R3
+!i122 7
+R0
+Z15 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndMux.vhd
+Z16 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndMux.vhd
+l0
+L7 1
+V@Dj^`7=P>L<k9dlChH4gA0
+!s100 7h=zhh^Y5]U1LddN@kg0H3
+R6
+31
+Z17 !s110 1615657599
+!i10b 1
+Z18 !s108 1615657599.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndMux.vhd|
+Z20 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndMux.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 6 andmux 0 22 @Dj^`7=P>L<k9dlChH4gA0
+!i122 7
+l22
+Z21 L12 13
+VMo8aK`kQ;oF>YfPLRJEDg1
+!s100 0zb=7S56YG^lIFJc7_S7j2
+R6
+31
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R11
+R12
+Eeightbitkogstonaddsub
+Z22 w1615656299
+R2
+R3
+!i122 6
+R0
+Z23 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/EightbitKogStonAddSub.vhd
+Z24 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/EightbitKogStonAddSub.vhd
+l0
+L7 1
+VIk9zJdGYmVA^=O@j9W]H43
+!s100 N9V4=]HGX0e:H14@E7P9C0
+R6
+31
+R17
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/EightbitKogStonAddSub.vhd|
+Z26 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/EightbitKogStonAddSub.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 21 eightbitkogstonaddsub 0 22 Ik9zJdGYmVA^=O@j9W]H43
+!i122 6
+l38
+L14 94
+V1?5;5MdZdISnQ`eO]_<RS3
+!s100 foDL<GD=U9mWS]5M5iO4e2
+R6
+31
+R17
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12
+Enode
+Z27 w1615656495
+R2
+R3
+!i122 1
+R0
+Z28 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Node.vhd
+Z29 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Node.vhd
+l0
+L8 1
+VJ4o0O7jENKiBa[=zA9?Rl3
+!s100 1ECJAM`8Y2?IkULIkl;TD1
+R6
+31
+Z30 !s110 1615657595
+!i10b 1
+Z31 !s108 1615657595.000000
+Z32 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Node.vhd|
+Z33 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Node.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 4 node 0 22 J4o0O7jENKiBa[=zA9?Rl3
+!i122 1
+l33
+Z34 L13 30
+V=QE8R>J1AfXfP3?oS2f?A1
+!s100 BQ^92HT<>kDXcQ3j=]lNR3
+R6
+31
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12
+Enotgate
+Z35 w1612732360
+R2
+R3
+!i122 4
+R0
+Z36 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotGate.vhd
+Z37 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotGate.vhd
+l0
+L7 1
+V?62nIQYA2UGSKjhUH4VFV1
+!s100 m<II9:Ai8C]A?ESBM=M]72
+R6
+31
+Z38 !s110 1615657597
+!i10b 1
+Z39 !s108 1615657597.000000
+Z40 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotGate.vhd|
+Z41 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotGate.vhd|
+!i113 1
+R11
+R12
+Ang
+R2
+R3
+DEx4 work 7 notgate 0 22 ?62nIQYA2UGSKjhUH4VFV1
+!i122 4
+l12
+R13
+V5X1_]?I9d:F3QBgF;L2]=3
+!s100 H0hXBj8=c3m@V^?V:3aG`2
+R6
+31
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R11
+R12
+Enotmux
+Z42 w1615621282
+R2
+R3
+!i122 9
+R0
+Z43 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotMux.vhd
+Z44 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotMux.vhd
+l0
+L7 1
+VIOJiAf:I83H=AeU`>U6Cc1
+!s100 mi8A3R`dDgEW65aOnfR=D0
+R6
+31
+Z45 !s110 1615657601
+!i10b 1
+Z46 !s108 1615657601.000000
+Z47 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotMux.vhd|
+Z48 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotMux.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 6 notmux 0 22 IOJiAf:I83H=AeU`>U6Cc1
+!i122 9
+l20
+L12 11
+V:z7CHMRzKAb[Ee7SMZ5>^1
+!s100 CQz][8FKc2Z<Xe6CA3]dZ0
+R6
+31
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 1
+R11
+R12
+Eorgate
+Z49 w1612732372
+R2
+R3
+!i122 3
+R0
+Z50 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrGate.vhd
+Z51 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrGate.vhd
+l0
+L7 1
+VbPhaVaJ;VbE@Gee[g<`EB1
+!s100 60DPG0g;GLzLiX3;[gND:0
+R6
+31
+R38
+!i10b 1
+Z52 !s108 1615657596.000000
+Z53 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrGate.vhd|
+Z54 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrGate.vhd|
+!i113 1
+R11
+R12
+Aot
+R2
+R3
+DEx4 work 6 orgate 0 22 bPhaVaJ;VbE@Gee[g<`EB1
+!i122 3
+l12
+R13
+VT8FOCm3QaOgLJ?eO6WJQT3
+!s100 ?7D;ETmE4JA69]4kIiGhV3
+R6
+31
+R38
+!i10b 1
+R52
+R53
+R54
+!i113 1
+R11
+R12
+Eormux
+Z55 w1615633081
+R2
+R3
+!i122 8
+R0
+Z56 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrMux.vhd
+Z57 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrMux.vhd
+l0
+L7 1
+Vkg[8lo9EfVS;B17j@>LmV3
+!s100 N^6ha62Va^0FDTSFl]YJY2
+R6
+31
+Z58 !s110 1615657600
+!i10b 1
+Z59 !s108 1615657600.000000
+Z60 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrMux.vhd|
+Z61 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrMux.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 5 ormux 0 22 kg[8lo9EfVS;B17j@>LmV3
+!i122 8
+l21
+L12 12
+V06hZHAO6YA<R0]YglN3l00
+!s100 =Jj0lnzdK]=P4kPaF_NMJ0
+R6
+31
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 1
+R11
+R12
+Epostprocess
+Z62 w1615656836
+R2
+R3
+!i122 12
+R0
+Z63 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PostProcess.vhd
+Z64 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PostProcess.vhd
+l0
+L7 1
+VDP`2IL_iCO7UM1XCIA?YB3
+!s100 FFLi=T[6SDZkCO0bzj;DW3
+R6
+31
+Z65 !s110 1615657603
+!i10b 1
+Z66 !s108 1615657603.000000
+Z67 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PostProcess.vhd|
+Z68 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PostProcess.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 11 postprocess 0 22 DP`2IL_iCO7UM1XCIA?YB3
+!i122 12
+l31
+L14 40
+VKkO=R=2H^i1nMDo5=:gOl3
+!s100 HbS<RhEMeeHK2I=bCDCdF2
+R6
+31
+R65
+!i10b 1
+R66
+R67
+R68
+!i113 1
+R11
+R12
+Epreprocess
+Z69 w1615656680
+R2
+R3
+!i122 11
+R0
+Z70 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PreProcess.vhd
+Z71 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PreProcess.vhd
+l0
+L7 1
+VOMaJ^8[5f_Xm1W3T8>OF52
+!s100 kAC5bDWDI?64G95G=CVLn3
+R6
+31
+Z72 !s110 1615657602
+!i10b 1
+Z73 !s108 1615657602.000000
+Z74 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PreProcess.vhd|
+Z75 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PreProcess.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 10 preprocess 0 22 OMaJ^8[5f_Xm1W3T8>OF52
+!i122 11
+l25
+R34
+VlQcn>Nh;hNnFJ?MAmF3^72
+!s100 a97lTonDUiC1O]nHiYEla0
+R6
+31
+R72
+!i10b 1
+R73
+R74
+R75
+!i113 1
+R11
+R12
+Etestbench
+Z76 w1615652315
+Z77 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 13
+R0
+Z78 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Testbench_EightbitKogStonAddSub.vhd
+Z79 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Testbench_EightbitKogStonAddSub.vhd
+l0
+L8 1
+V46zV@M000E0VCfl_hnzcb2
+!s100 >3<0F;nXkh7EYNjE=aSKN3
+R6
+31
+Z80 !s110 1615657605
+!i10b 1
+Z81 !s108 1615657604.000000
+Z82 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Testbench_EightbitKogStonAddSub.vhd|
+Z83 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Testbench_EightbitKogStonAddSub.vhd|
+!i113 1
+R11
+R12
+Aarch
+R77
+R2
+R3
+Z84 DEx4 work 9 testbench 0 22 46zV@M000E0VCfl_hnzcb2
+!i122 13
+l27
+Z85 L11 41
+Z86 VXKjY483e=4LWIb6a?_ORg0
+Z87 !s100 >H=IomkOh?oCZA:BbFFHk1
+R6
+31
+R80
+!i10b 1
+R81
+R82
+R83
+!i113 1
+R11
+R12
+Etwobyonemux
+Z88 w1613091168
+R2
+R3
+!i122 2
+R0
+Z89 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/TwoByOneMux.vhd
+Z90 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/TwoByOneMux.vhd
+l0
+L8 1
+VK>7^g3klRIme0F=nke;^E1
+!s100 2ed0i3QUIL?[omQ>f31E91
+R6
+31
+Z91 !s110 1615657596
+!i10b 1
+R52
+Z92 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/TwoByOneMux.vhd|
+Z93 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/TwoByOneMux.vhd|
+!i113 1
+R11
+R12
+Atwobyonearch
+R2
+R3
+DEx4 work 11 twobyonemux 0 22 K>7^g3klRIme0F=nke;^E1
+!i122 2
+l35
+L15 31
+V:Y9=>>4oc6D`1>HY6PBOX0
+!s100 lXho]0H8CDNO_bbHomCHW1
+R6
+31
+R91
+!i10b 1
+R52
+R92
+R93
+!i113 1
+R11
+R12
+Exormux
+Z94 w1615623498
+R2
+R3
+!i122 10
+R0
+Z95 8G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/XorMux.vhd
+Z96 FG:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/XorMux.vhd
+l0
+L7 1
+VBFdXI_ilS2[JV=M^>73YR3
+!s100 1ZniJ8Rd5z2hzRhaUbdiU0
+R6
+31
+R72
+!i10b 1
+R46
+Z97 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/XorMux.vhd|
+Z98 !s107 G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/XorMux.vhd|
+!i113 1
+R11
+R12
+Aarch
+R2
+R3
+DEx4 work 6 xormux 0 22 BFdXI_ilS2[JV=M^>73YR3
+!i122 10
+l21
+R21
+Vco3gG8=FfgJ;f1e4AVMmX3
+!s100 <_ff4a<:M4MK7Ed_jMzhS0
+R6
+31
+R72
+!i10b 1
+R46
+R97
+R98
+!i113 1
+R11
+R12

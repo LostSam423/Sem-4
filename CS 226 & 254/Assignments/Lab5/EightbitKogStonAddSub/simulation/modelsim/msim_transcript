@@ -1,0 +1,198 @@
+# Reading pref.tcl
+# do EightbitKogStonAddSub_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Testbench_EightbitKogStonAddSub.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:34 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Testbench_EightbitKogStonAddSub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TestBench
+# -- Compiling architecture arch of TestBench
+# End time: 23:16:35 on Mar 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Node.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:35 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Node.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Node
+# -- Compiling architecture arch of Node
+# End time: 23:16:36 on Mar 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/TwoByOneMux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:36 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/TwoByOneMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TwoByOneMux
+# -- Compiling architecture twobyonearch of TwoByOneMux
+# End time: 23:16:36 on Mar 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrGate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:36 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrGate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OrGate
+# -- Compiling architecture OT of OrGate
+# End time: 23:16:37 on Mar 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotGate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:37 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotGate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NotGate
+# -- Compiling architecture NG of NotGate
+# End time: 23:16:37 on Mar 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndGate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:38 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndGate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AndGate
+# -- Compiling architecture Archi of AndGate
+# End time: 23:16:38 on Mar 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/EightbitKogStonAddSub.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:38 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/EightbitKogStonAddSub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity EightbitKogStonAddSub
+# -- Compiling architecture arch of EightbitKogStonAddSub
+# End time: 23:16:39 on Mar 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndMux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:39 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/AndMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity AndMux
+# -- Compiling architecture arch of AndMux
+# End time: 23:16:40 on Mar 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrMux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:40 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/OrMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OrMux
+# -- Compiling architecture arch of OrMux
+# End time: 23:16:41 on Mar 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotMux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:41 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/NotMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity NotMux
+# -- Compiling architecture arch of NotMux
+# End time: 23:16:41 on Mar 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/XorMux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:41 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/XorMux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity XorMux
+# -- Compiling architecture arch of XorMux
+# End time: 23:16:42 on Mar 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PreProcess.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:42 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PreProcess.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PreProcess
+# -- Compiling architecture arch of PreProcess
+# End time: 23:16:43 on Mar 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PostProcess.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:43 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/PostProcess.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PostProcess
+# -- Compiling architecture arch of PostProcess
+# End time: 23:16:44 on Mar 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Testbench_EightbitKogStonAddSub.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:16:44 on Mar 13,2021
+# vcom -reportprogress 300 -93 -work work G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub/Testbench_EightbitKogStonAddSub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TestBench
+# -- Compiling architecture arch of TestBench
+# End time: 23:16:45 on Mar 13,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 23:16:45 on Mar 13,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench(arch)
+# Loading work.eightbitkogstonaddsub(arch)
+# Loading work.preprocess(arch)
+# Loading work.xormux(arch)
+# Loading work.twobyonemux(twobyonearch)
+# Loading work.notgate(ng)
+# Loading work.andgate(archi)
+# Loading work.orgate(ot)
+# Loading work.andmux(arch)
+# Loading work.node(arch)
+# Loading work.ormux(arch)
+# Loading work.postprocess(arch)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2000 ns
+# End time: 23:25:00 on Mar 13,2021, Elapsed time: 0:08:15
+# Errors: 0, Warnings: 0

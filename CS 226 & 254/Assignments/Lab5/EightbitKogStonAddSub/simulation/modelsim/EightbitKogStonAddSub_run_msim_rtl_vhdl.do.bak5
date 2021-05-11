@@ -1,0 +1,29 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/Testbench_EightbitKogStonAddSub.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/Node.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/TwoByOneMux.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/OrGate.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/NotGate.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/AndGate.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/EightbitKogStonAddSub.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/AndMux.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/OrMux.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/NotMux.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/XorMux.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/PreProcess.vhd}
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/PostProcess.vhd}
+
+vcom -93 -work work {G:/My Drive/sem4/CS 254/Lab5/Testbench_EightbitKogStonAddSub.vhd}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  Testbench
+
+add wave *
+view structure
+view signals
+run 2000 ns

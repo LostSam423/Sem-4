@@ -1,0 +1,43 @@
+library work;
+use work.all;
+
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity node is 
+port (g1, p1, g2, p2: in std_logic;
+		gout, pout: out std_logic);
+end entity;
+
+architecture arch of node is 
+	
+	signal flow: std_logic;
+	
+	component AndMux
+		port(A,B: in std_logic; C: out std_logic);
+	end component;
+	
+	component OrMux
+		port(A,B: in std_logic; C: out std_logic);
+	end component;
+	
+	component XorMux
+		port(A,B: in std_logic; C: out std_logic);
+	end component;
+	
+	component NotMux
+		port(A: in std_logic; B: out std_logic);
+	end component;
+	
+	begin
+	
+	AndInst: AndMux port map(A => p1, B => g2, C => flow);
+	OrInst: OrMux port map(A => g1, B => flow, C => gout);
+	XorInst: XorMux port map(A => p1, B => p2, Z => pout); 
+	
+	
+end arch;
+
+
+	
+	
